@@ -1,0 +1,289 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUREFY</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./img/gota.ICO.png" class="logohead">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="js/script.js"></script>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    background-color:#519eb6;
+    padding: 10px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.imagem1 {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    margin-right: 0px;
+    margin-left: 100px;
+}
+
+.imagem2 {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    margin-right: 65px;
+    margin-left: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: rgb(40, 50, 51);
+}
+
+main {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.box{
+    position: absolute;
+    top: 230%;
+    left: 60%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 30%;
+    color: aliceblue;
+ }
+ fieldset{
+     border: 3px solid dodgerblue;
+ }
+ legend{
+     border: 1px solid dodgerblue;
+     padding: 10px;
+     text-align: center;
+     background-color: dodgerblue;
+     border-radius: 8px;
+ }
+ .inputbox{
+     position: relative;
+ }
+ .inputuser{
+     background: none;
+     border: none;
+     border-bottom: 1px solid white;
+     outline: none;
+     font-size: 15px;
+     width: 100%;
+     letter-spacing: 2px;
+     color: aliceblue;
+ }
+ .label-input{
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     pointer-events: none;
+     transition: .5s;
+ }
+ .inputuser:focus ~ .label-input,
+ .inputuser:valid ~.label-input{
+     top: -20px;
+     font-size: 12px;
+     color: dodgerblue;
+ }
+ #data-nasci{
+     border: none;
+     padding: 8px;
+     border-radius: 10px;
+     outline: none;
+     font-size: 15px;
+ }
+ #submit{
+     background-color:rgba(29, 108, 187, 0.579);
+     width: 100%;
+     border: none;
+     padding: 15px;
+     color: aliceblue;
+     border-radius: 10px;
+     font-size: 15px;
+     cursor: pointer;
+ }
+ #submit:hover{
+     background-color: rgb(84, 90, 137);
+ }
+ .botao-voltar-login{
+     background-color:rgba(29, 108, 187, 0.579);
+     width: 100%;
+     border: none;
+     padding: 15px;
+     color: aliceblue;
+     border-radius: 10px;
+     font-size: 15px;
+ }
+ .botao-voltar-login:hover{
+     background-color: rgb(84, 90, 137);
+ }
+ main {
+     font-size: 20px;
+     max-width: 800px;
+     margin: 20px auto;
+     padding: 20px;
+ }
+ 
+ footer {
+    border-top: 1px;
+    position: fixed;
+    background-color: #519eb6;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    left: 0;
+    padding: 10px;
+ }
+
+ .info, .infolist{
+    position: absolute;
+    top: 230%;
+    left: 10%;
+    padding: 15px;
+    border-radius: 15px;
+    width: 30%;
+ }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a a href="index.html"><img src="img/logoplaneta.png" alt="logo planeta" class="imagem1"></a>
+        </div>
+        <h1>INSTITUTO PUREFY</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pagina1.html">Sobre</a></li>
+                <li><a href="pagina2.html">Clientes</a></li>
+                <li><a href="telalogin.html">Usuario</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="text">
+            <h2>Qual o objetivo da sustentabilidade?</h2>
+            <img src="img/sustentavel.jpeg" alt="imagem sustentavel" class="imagem2">
+            <p>Busca-se o equilíbrio entre desenvolvimento econômico, responsabilidade social e preservação ambiental, visando evitar a exaustão dos recursos naturais e minimizar impactos adversos.<br><br>
+            Ao adotar práticas sustentáveis, projetamos um futuro mais próspero, com biodiversidade, respeito ao meio ambiente e riqueza compartilhada  <br><br> 
+            Dessa forma, o planeta pode ser um ambiente saudável, com igualdade entre pessoas e crescimento econômico duradouro.</p><br>
+        </section>
+        <section>
+            <h2>O tripé da sustentabilidade</h2>
+            <h3>Sustentabilidade Ambiental</h3>
+            <p>Cuida das condições de produção e consumo, de forma a assegurar que o meio ambiente tenha condições de se autorregenerar, respeitando os limites biológicos de recuperação do ecossistema.
+            Sabe-se que toda atividade produtiva resulta em um impacto ambiental negativo.                
+            Em resposta, esse pilar trata das condições de se minimizar esses resultados e, na impossibilidade disso, implementar maneiras de compensação ambiental.</p>
+            <h3>Sustentabilidade Social</h3>
+            <p>Sob esse prisma, a sustentabilidade deve contemplar as condições para que todas as pessoas tenham os recursos necessários para uma vida saudável e de boa qualidade.
+            Nessa definição de sustentabilidade, encontra-se implícita a redução ou erradicação da pobreza.                
+            É fundamental garantir a disponibilidade dos recursos naturais para as próximas gerações.</p>
+            <h3>Sustentabilidade Econômica</h3>
+            <p>Na dimensão da sustentabilidade econômica, é analisada a questão da eficiência, ou mais propriamente dita, da ecoeficiência.
+            Estamos falando da busca por formas de redução do consumo de recursos naturais, em especial, das fontes fósseis de energia (como carvão e petróleo) e daqueles mal distribuídos, como a água, sem comprometer o ritmo de crescimento econômico.</p>
+        </section>
+        <div class="box">
+            <form action="">
+            <fieldset>
+                <legend><b>Entre em contato</b></legend>
+            <br>
+            <div class="inputbox">
+                <input type="text" name="nome" id="nome" class="inputuser" required>
+                <label for="nome" class="label-input">Nome Completo</label>
+            </div>
+            <br><br>
+            <div class="inputbox">
+                <input type="text" name="email" id="email" class="inputuser" required>
+                    <label for="email" class="label-input">Email</label>
+            </div>
+            <br><br>
+            <div class="inputbox">
+                <input type="tel" name="telefone" id="telefone" class="inputuser" required>
+                <label for="telefone" class="label-input">Telefone</label>
+            </div>
+                <p>Sexo:</p>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+            <br>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+            <br>
+                <input type="radio" id="outro" name="genero" value="outro" required>
+                <label for="outro">Outro</label>
+            <br><br>
+                <label for="data-nasci"><b>Data de nascimento</b></label>
+                <input type="date" name="data-nasci" id="data-nasci" required>
+            <br><br>
+            <div class="inputbox">
+                <input type="text" name="cidade" id="cidade" class="inputuser" required>
+                <label for="cidade" class="label-input">Cidade</label>
+            </div>
+            <br><br>
+            <div class="inputbox">
+                <input type="text" name="estado" id="estado" class="inputuser" required>
+                <label for="estado" class="label-input">Estado</label>
+            </div>
+            <br><br>
+            <div class="inputbox">
+                <input type="text" name="endereco" id="endereco" class="inputuser" required>
+                <label for="endereco" class="label-input">Endereço</label>
+            </div>
+            <br><br>
+            <input type="submit" nome="submit" id="submit">
+            </fieldset>
+        </form>
+    </main>
+    <div class="info">
+        <img>
+        <ul class="info-list">
+            <li>Sobre</li>
+            <li>Clientes</li>
+            <li>Usuario</li>
+            <li>SAC (41)0000000</li>
+        </ul>
+    </div>
+</body>
+<footer>
+    <p>&copy; 2023 Yasmin Gonçalves Carmona</p>
+</footer>
+</html>
